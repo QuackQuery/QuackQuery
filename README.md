@@ -5,62 +5,12 @@
 
 ## Introduction
 
-[Agno](https://docs.agno.com) is a lightweight library for building Multimodal Agents. It exposes LLMs as a unified API and gives them superpowers like memory, knowledge, tools and reasoning.
+QuackQuery is a simple library for building Multimodal Ai Agents. It exposes LLMs as a unified API and gives them superpowers like  automation, memory, knowledge, tools and reasoning.
 
-- Build lightning-fast Agents that can generate text, image, audio and video.
+- Build lightning-fast Ai Agents that can automate tasks for you.
 - Add memory, knowledge, tools and reasoning as needed.
-- Run anywhere, Agno is open-source.
+- Run anywhere, QuackQuery is open-source.
 
-Here's an Agent that can search the web:
-
-```python websearch_agent.py
-from agno.agent import Agent
-from agno.models.openai import OpenAIChat
-from agno.tools.duckduckgo import DuckDuckGoTools
-
-agent = Agent(
-    model=OpenAIChat(id="gpt-4o"),
-    tools=[DuckDuckGoTools()],
-    markdown=True
-)
-agent.print_response("What's happening in New York?", stream=True)
-```
-
-## 🚨 Open Source AI Agent Hackathon! 🚨
-
-We're launching a Global AI Agent Hackathon in collaboration with AI Agent ecosystem partners — open to all developers, builders, and startups working on agents, RAG, tool use, or multi-agent systems.
-
-### 💰 Win up to $20,000 in cash by building Agents
-
-- 🏅 10 winners: $300 each
-- 🥉 10 winners: $500 each
-- 🥈 5 winners: $1,000 each
-- 🥇 1 winner: $2,000
-- 🏆 GRAND PRIZE: $5,000 🏆
-
-### 🎁 Bonus
-- Top 5 projects will be featured in the top trending [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) repo.
-
-### 🤝 Partners
-
-[Agno](https://www.agno.com), [Unwind AI](https://www.theunwindai.com) and more Agent ecosystem companies joining soon.
-
-### 📅 Here's the timeline:
-
-- April 3rd - Final dates revealed
-- April 10th - Prize and success criteria announced
-- April 15th (tentative) - Hackathon starts
-- May 30th (tentative) - Hackathon ends
-
-Join us for a month of building Agents!
-
-> Prizes will be distributed on an ongoing basis and continue till all prizes are awarded.
-
-⭐ Star this repo and follow along to stay updated.
-
-### 🤝 Want to join us as a partner or judge?
-
-If you're a company in the AI agent ecosystem or would like to judge the hackathon, reach out to [Shubham Saboo](https://x.com/Saboo_Shubham_) or [Ashpreet Bedi](https://x.com/ashpreetbedi) on X to partner. Let’s make this the biggest open source AI Agent hackathon.
 
 ## Key features
 
