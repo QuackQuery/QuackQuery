@@ -329,7 +329,7 @@ LangGraph is on the right, **let's start it first and give it a head start**.
 
 Agno is on the left, notice how it finishes before LangGraph gets 1/2 way through the runtime measurement, and hasn't even started the memory measurement. That's how fast Agno is.
 
-https://github.com/user-attachments/assets/ba466d45-75dd-45ac-917b-0a56c5742e23
+
 
 Dividing the average time of a Langgraph Agent by the average time of an Agno Agent:
 
@@ -370,11 +370,7 @@ We'll be publishing accuracy and reliability benchmarks running on Github action
 
 ## Contributions
 
-We welcome contributions, read our [contributing guide](https://github.com/agno-agi/agno/blob/main/CONTRIBUTING.md) to get started.
-
-## Telemetry
-
-Agno logs which model an agent used so we can prioritize updates to the most popular providers. You can disable this by setting `AGNO_TELEMETRY=false` in your environment.
+We welcome contributions to make QuackQuery more robust and perfect.
 
 <p align="left">
   <a href="#top">⬆️ Back to Top</a>
