@@ -1,6 +1,7 @@
-<div align="center" id="top">
-  
+<div align="center">
+  <img src="QuackQuery/duck.png" alt="quack" />
 </div>
+
 
 ## Introduction
 
