@@ -44,7 +44,7 @@ Instead of a rigid binary definition, let's think of Agents in terms of agency a
 
 ## Example - Basic Agent
 
-The simplest Agent is just an inference task, no tools, no memory, no knowledge.
+Example of an agent using python
 
 ```python
 import asyncio
@@ -281,9 +281,9 @@ if __name__ == "__main__":
 To run the agent, install dependencies and export your `OPENAI_API_KEY`.
 
 ```shell
-pip install agno openai
+pip install quackquery
 
-export OPENAI_API_KEY=sk-xxxx
+GEMINI_API_KEY="your api"
 
 python basic_agent.py
 ```
