@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="QuackQuery/duck.png" alt="quack" />
+  <img src="QuackQuery/QuackQuery/blob/main/duck.png" alt="quack" />
 </div>
 
 
