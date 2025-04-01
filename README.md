@@ -14,7 +14,7 @@ QuackQuery is a simple library for building Multimodal Ai Agents. It exposes LLM
 
 ## Key features
 
-Agno is simple, fast and model agnostic. Here are some key features:
+QuackQuery is simple, fast and model agnostic. Here are some key features:
 
 - **Lightning Fast**: Agent creation is 10,000x faster than LangGraph (see [performance](#performance)).
 - **Model Agnostic**: Use any model, any provider, no lock-in.
@@ -23,18 +23,11 @@ Agno is simple, fast and model agnostic. Here are some key features:
 - **Memory Management**: Store agent sessions and state in a database.
 - **Knowledge Stores**: Use vector databases for RAG or dynamic few-shot learning.
 - **Structured Outputs**: Make Agents respond in a structured format.
-- **Monitoring**: Track agent sessions and performance in real-time on [agno.com](https://app.agno.com).
-
-## Getting Started
-
-- Start by [building your first Agent](https://docs.agno.com/introduction/agents)
-- Check out the [examples](https://docs.agno.com/examples/introduction)
-- Read the [documentation](https://docs.agno.com)
 
 ## Installation
 
 ```shell
-pip install -U agno
+pip install quackquery
 ```
 
 ## What are Agents?
