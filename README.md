@@ -276,16 +276,6 @@ Agno agents are designed for performance and while we do share some benchmarks a
 
 We'll be publishing accuracy and reliability benchmarks running on Github actions in the coming weeks. Given that each framework is different and we won't be able to tune their performance like we do with Agno, for future benchmarks we'll only be comparing against ourselves.
 
-## Cursor Setup
-
-When building Agno agents, using Agno documentation as a source in Cursor is a great way to speed up your development.
-
-1. In Cursor, go to the settings or preferences section.
-2. Find the section to manage documentation sources.
-3. Add `https://docs.agno.com` to the list of documentation URLs.
-4. Save the changes.
-
-Now, Cursor will have access to the Agno documentation.
 
 ## Documentation, Community & More examples
 
