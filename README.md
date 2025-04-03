@@ -16,7 +16,6 @@ QuackQuery is a simple library for building Multimodal Ai Agents. It exposes LLM
 
 QuackQuery is simple, fast and model agnostic. Here are some key features:
 
-- **Lightning Fast**: Agent creation is 10,000x faster than LangGraph (see [performance](#performance)).
 - **Model Agnostic**: Use any model, any provider, no lock-in.
 - **Multi Modal**: Native support for text, image, audio and video.
 - **Multi Agent**: Build teams of specialized agents.
@@ -289,9 +288,6 @@ python basic_agent.py
 ```
 
 
-
-[View this example in the cookbook](./cookbook/getting_started/05_agent_team.py)
-
 ## Getting started with QuackQuery CLI 
 
 QuackQuery , allows Command Line Interface to automate your tasks using AGI services
@@ -313,8 +309,6 @@ We recommend running the evaluation yourself on your own machine, and digging in
 
 Quackquery agents are designed for performance and while we do share some benchmarks against other frameworks, we should be mindful that accuracy and reliability are more important than speed.
 
-
-## Documentation, Community & More examples
 
 
 ## Contributions
