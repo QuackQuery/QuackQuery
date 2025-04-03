@@ -292,81 +292,29 @@ python basic_agent.py
 
 [View this example in the cookbook](./cookbook/getting_started/05_agent_team.py)
 
-## Performance
+## Getting started with QuackQuery CLI 
 
-At Agno, we're obsessed with performance. Why? because even simple AI workflows can spawn thousands of Agents to achieve their goals. Scale that to a modest number of users and performance becomes a bottleneck. Agno is designed to power high performance agentic systems:
+QuackQuery , allows Command Line Interface to automate your tasks using AGI services
 
-- Agent instantiation: ~2μs on average (~10,000x faster than LangGraph).
-- Memory footprint: ~3.75Kib on average (~50x less memory than LangGraph).
+ -Below there's a basic usage of QuackQuery
 
-> Tested on an Apple M4 Mackbook Pro.
-
-While an Agent's run-time is bottlenecked by inference, we must do everything possible to minimize execution time, reduce memory usage, and parallelize tool calls. These numbers may seem trivial at first, but our experience shows that they add up even at a reasonably small scale.
-
-### Instantiation time
-
-Let's measure the time it takes for an Agent with 1 tool to start up. We'll run the evaluation 1000 times to get a baseline measurement.
-
-You should run the evaluation yourself on your own machine, please, do not take these results at face value.
-
-```shell
-# Setup virtual environment
-./scripts/perf_setup.sh
-source .venvs/perfenv/bin/activate
-# OR Install dependencies manually
-# pip install openai agno langgraph langchain_openai
-
-# Agno
-python evals/performance/instantiation_with_tool.py
-
-# LangGraph
-python evals/performance/other/langgraph_instantiation.py
-```
-
-> The following evaluation is run on an Apple M4 Mackbook Pro. It also runs as a Github action on this repo.
-
-LangGraph is on the right, **let's start it first and give it a head start**.
-
-Agno is on the left, notice how it finishes before LangGraph gets 1/2 way through the runtime measurement, and hasn't even started the memory measurement. That's how fast Agno is.
+> Example video
 
 https://github.com/user-attachments/assets/ba466d45-75dd-45ac-917b-0a56c5742e23
 
-Dividing the average time of a Langgraph Agent by the average time of an Agno Agent:
+In this particular video you'll understand the basic usage of QuackQuery 
 
-```
-0.020526s / 0.000002s ~ 10,263
-```
-
-In this particular run, **Agno Agents startup is roughly 10,000 times faster than Langgraph Agents**. The numbers continue to favor Agno as the number of tools grow, and we add memory and knowledge stores.
-
-### Memory usage
-
-To measure memory usage, we use the `tracemalloc` library. We first calculate a baseline memory usage by running an empty function, then run the Agent 1000x times and calculate the difference. This gives a (reasonably) isolated measurement of the memory usage of the Agent.
 
 We recommend running the evaluation yourself on your own machine, and digging into the code to see how it works. If we've made a mistake, please let us know.
 
-Dividing the average memory usage of a Langgraph Agent by the average memory usage of an Agno Agent:
-
-```
-0.137273/0.002528 ~ 54.3
-```
-
-**Langgraph Agents use ~50x more memory than Agno Agents**. In our opinion, memory usage is a much more important metric than instantiation time. As we start running thousands of Agents in production, these numbers directly start affecting the cost of running the Agents.
 
 ### Conclusion
 
-Agno agents are designed for performance and while we do share some benchmarks against other frameworks, we should be mindful that accuracy and reliability are more important than speed.
-
-We'll be publishing accuracy and reliability benchmarks running on Github actions in the coming weeks. Given that each framework is different and we won't be able to tune their performance like we do with Agno, for future benchmarks we'll only be comparing against ourselves.
+Quackquery agents are designed for performance and while we do share some benchmarks against other frameworks, we should be mindful that accuracy and reliability are more important than speed.
 
 
 ## Documentation, Community & More examples
 
-- Docs: <a href="https://docs.agno.com" target="_blank" rel="noopener noreferrer">docs.agno.com</a>
-- Getting Started Examples: <a href="https://github.com/agno-agi/agno/tree/main/cookbook/getting_started" target="_blank" rel="noopener noreferrer">Getting Started Cookbook</a>
-- All Examples: <a href="https://github.com/agno-agi/agno/tree/main/cookbook" target="_blank" rel="noopener noreferrer">Cookbook</a>
-- Community forum: <a href="https://community.agno.com/" target="_blank" rel="noopener noreferrer">community.agno.com</a>
-- Chat: <a href="https://discord.gg/4MtYHHrgA8" target="_blank" rel="noopener noreferrer">discord</a>
 
 ## Contributions
 
