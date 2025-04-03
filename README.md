@@ -303,7 +303,6 @@ QuackQuery , allows Command Line Interface to automate your tasks using AGI serv
   <video src="videos/qq6new.mp4" alt="quack"/>
 </div>
 
-/videos/qq6new.mp4
 
 In this particular video you'll understand the basic usage of QuackQuery 
 
