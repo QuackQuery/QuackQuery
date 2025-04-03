@@ -299,7 +299,8 @@ QuackQuery , allows Command Line Interface to automate your tasks using AGI serv
  -Below there's a basic usage of QuackQuery
 
 > Example video
-[![Watch the Video](https://vumbnail.com/1072184306.jpg)](https://vimeo.com/1072184306)
+![Preview](videos/)
+
 
 
 In this particular video you'll understand the basic usage of QuackQuery 
