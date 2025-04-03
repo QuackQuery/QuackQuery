@@ -300,7 +300,7 @@ QuackQuery , allows Command Line Interface to automate your tasks using AGI serv
 
 > Example video
 
-https://github.com/user-attachments/assets/ba466d45-75dd-45ac-917b-0a56c5742e23
+https://github.com/QuackQuery/QuackQuery/blob/main/videos/test.mp4
 
 In this particular video you'll understand the basic usage of QuackQuery 
 
