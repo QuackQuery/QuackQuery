@@ -299,7 +299,7 @@ QuackQuery , allows Command Line Interface to automate your tasks using AGI serv
  -Below there's a basic usage of QuackQuery
 
 > Example video
-![Preview](videos/qq6new1-ezgif.com-speed.gif)
+![Preview](videos/ezgif.com-speed.gif)
 
 
 
