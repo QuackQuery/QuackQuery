@@ -278,7 +278,7 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-To run the agent, install dependencies and export your `OPENAI_API_KEY`.
+To run the agent, install dependencies and export your `GEMINI_API_KEY`.
 
 ```shell
 pip install quackquery
